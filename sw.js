@@ -1,6 +1,6 @@
 /* DES-BC : fonctionne hors ligne. La page est servie depuis le réseau quand c'est possible
    (pour avoir la dernière version), sinon depuis la copie gardée sur le téléphone. */
-const C='desbc-v3';
+const C='desbc-v4';
 self.addEventListener('install',e=>{e.waitUntil(caches.open(C).then(c=>c.addAll(['./','manifest.webmanifest','icon-192.png','icon-512.png']).catch(()=>{})));self.skipWaiting()});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==C).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',e=>{

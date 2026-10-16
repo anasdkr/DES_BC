@@ -1,0 +1,18 @@
+DES-BC — appli de préparation au probatoire
+
+METTRE À JOUR LE SITE (GitHub, dépôt DES_BC)
+1. Décompresse ce zip.
+2. Sur github.com/anasdkr/DES_BC : Add file → Upload files.
+3. Dépose les 7 fichiers : index.html, sw.js, manifest.webmanifest,
+   icon-192.png, icon-512.png, icon-maskable.png, apple-touch-icon.png
+4. Commit changes. Attends 2 minutes.
+
+AVOIR UNE VRAIE APPLI (pas un raccourci)
+1. Supprime l'ancienne icône DES-BC de l'écran d'accueil (appui long → Supprimer).
+2. Ouvre https://anasdkr.github.io/DES_BC/ dans CHROME (pas Brave).
+3. Menu ⋮ → « Installer l'application » → Installer.
+4. L'icône verte DES-BC apparaît, sans petit logo de navigateur dessus,
+   et aussi dans la liste de tes applis. Ouvre toujours l'appli par cette icône.
+
+Ta progression reste dans le téléphone. Pour la garder en sécurité :
+Profil → Sauvegarder ma progression (une fois par semaine).
